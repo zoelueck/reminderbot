@@ -1,0 +1,47 @@
+* Database:
+
+- Database normalization
+  - query is its own table -> live database
+  - queries more logical -> archival
+
+** Archival database
+
+
+** structure
+
+each server a table
+- servers limited in amount of reminders active
+
+  
+- server
+- owner
+- channel
+- message
+- timestamp
+  - full timestamp but sql request is shortened
+- other people to ping
+- information
+  - contains things like snooze and stuff
+
+** Live database
+
+* Features
+
+
+V1 alpha release
+** MUST HAVE:
+- Set reminders
+- change reminders
+- delete reminders
+- ~~reocurring reminders~~
+  - ~~patterns? regex?~~
+- channel permissions
+- ~~remind others to remind me~~
+  - just ping them with the original/5 minutes late
+  - consent to be pinged
+- check remindes
+
+** how 
+
+** out of scope for now
+- multi server pings/bundled pings 
