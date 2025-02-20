@@ -14,6 +14,7 @@ User Features
 - Allow users to set per server settings
 - Allow users to snooze reminders
 - Allow users to view bot status
+- Allow users to snooze reminders
 Server Admin Features
 - Allow server admins to set permitted channels
 - Allow server admins to remove permitted channels
@@ -43,6 +44,7 @@ people defined via container argument discord user id are Bot admins
 - set timezone
 - default missed behaviour
 - Get Bot status
+- snooze reminder
 
 ### Server Admin Commands:
 - add reminding channel(s)
