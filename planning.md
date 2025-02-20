@@ -31,7 +31,7 @@ Bot Admin Features
 preliminary simplified ERD
 ```dot
 digraph G {
-    reminders -> {reminder_id user_id message channel_id timestamp status}
+    reminders -> {reminder_id user_id message channel_id timestamp status remaining_snooze}
     userSettings -> {user_id timezone default_missed_behaviour}
     serverSettings -> {allowed_channels update_channel}
     consentTable -> {user_id allowed_user_id key}
