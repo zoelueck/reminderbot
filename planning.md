@@ -25,4 +25,31 @@ Bot Admin Features
 ## Database Structure
 - Reminders table
 - User settings table
-- Server Permitted channel table
+- Server settings table
+
+## Permission logic and roles
+everyone is a user
+people with administrator permission in a role are considered Server admins
+people defined via container argument discord user id are Bot admins
+
+## Needed commands
+
+### User commands:
+- create reminder
+- edit reminder
+- delete reminder
+- consent to getting pinged
+- remove consent to getting pinged
+- set timezone
+- default missed behaviour
+- Get Bot status
+
+### Server Admin Commands:
+- add reminding channel(s)
+- remove reminding channel(s)
+- set update channel
+- remove update channel
+
+### Bot Admin Commands:
+- View bot logs
+- Restart Bot
