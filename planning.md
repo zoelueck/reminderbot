@@ -28,6 +28,17 @@ Bot Admin Features
 - User settings table
 - Server settings table
 
+preliminary simplified ERD
+```dot
+digraph G {
+    reminders -> {reminder_id user_id message channel_id timestamp status}
+    userSettings -> {user_id timezone default_missed_behaviour}
+    serverSettings -> {allowed_channels update_channel}
+    consentTable -> {user_id allowed_user_id key}
+    botLogs -> {log_id timestamp log_type message details uptime_seconds status}
+}
+```
+
 ## Permission logic and roles
 everyone is a user
 people with administrator permission in a role are considered Server admins
