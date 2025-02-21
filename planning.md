@@ -4,6 +4,7 @@
 Technical Features
 - First Class Docker/Kubernetes Support
 - Support MySQL and Postgres
+
 User Features
 - Allow users to set reminders
 - Allow users to modify reminders
@@ -15,10 +16,12 @@ User Features
 - Allow users to snooze reminders
 - Allow users to view bot status
 - Allow users to snooze reminders
+
 Server Admin Features
 - Allow server admins to set permitted channels
 - Allow server admins to remove permitted channels
 - Allow server admins to designate a channel to get bot updates to
+
 Bot Admin Features
 - Allow bot admins to view bot logs
 - Allow bot admins to check more in depth things and restart bot
