@@ -4,4 +4,5 @@ a discord bot to add a social aspect to reminders, using peer pressure to get yo
 ## Planned Features
 [moved to my blog](https://zoelueck.github.io/blog/post/go-bot-the-first/)
 
+## Badges and stuff
 ![brainmade](https://brainmade.org/white-logo.png)
