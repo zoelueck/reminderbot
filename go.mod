@@ -1,4 +1,4 @@
-module example.com/hello_world_bot
+module github.com/zoelueck/reminderbot
 
 go 1.23.5
 
